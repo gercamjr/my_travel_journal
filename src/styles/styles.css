@@ -1,0 +1,17 @@
+:root {
+    --color-light: white;
+    --color-dark: gray;
+    --color-accent: #F55A5A;
+    --color-highlight: lime;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav {
+    background-color: var(--color-accent);
+}
