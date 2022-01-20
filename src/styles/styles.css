@@ -2,16 +2,30 @@
     --color-light: white;
     --color-dark: gray;
     --color-accent: #F55A5A;
-    --color-highlight: lime;
+    --color-highlight: rgb(107, 218, 107);
 }
 
-html {
+body {
     margin: 0;
     padding: 0;
     block-size: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Inter', sans-serif;
 }
 
-.nav {
-    background-color: var(--color-accent);
+.navbar {
+    background-color: var(--color-highlight);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.entry__img {
+    width: 125px;
+}
+
+.fa-map-marker-alt {
+    color: var(--color-accent);
 }
