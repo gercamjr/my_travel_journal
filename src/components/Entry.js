@@ -23,10 +23,11 @@ export default function Entry(props) {
             </a>
           </span>
         </span>
+        <div className="blog-slider__title">{props.title}</div>
         <div className="blog-slider__date">
           {props.startDate} - {props.endDate}
         </div>
-        <div className="blog-slider__title">{props.title}</div>
+        
         <div className="blog-slider__text">{props.description}</div>
       </div>
     </div>
