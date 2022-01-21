@@ -1,4 +1,5 @@
 export default [{
+        key: 1,
         title: "Island of Janitzio",
         location: "Michoacan, México",
         googleMapsUrl: "https://goo.gl/maps/uZbHQ4Sb1SB6jcuZ9",
@@ -8,6 +9,7 @@ export default [{
         imageUrl: "janitzio.jpg"
     },
     {
+        key: 2,
         title: "Hollywood Sign",
         location: "Los Angeles, California, USA",
         googleMapsUrl: "https://goo.gl/maps/sjCSms7hpyCRNaeJ8",
@@ -17,6 +19,7 @@ export default [{
         imageUrl: "los_angeles.jpg"
     },
     {
+        key: 3,
         title: "St. Peter's Basilica",
         location: "Vatican City, Italy",
         googleMapsUrl: "https://goo.gl/maps/X8qPvE2oWBA99wc96",
@@ -26,6 +29,7 @@ export default [{
         imageUrl: "rome_pietro.jpg"
     },
     {
+        key: 4,
         title: "Tequila",
         location: "Jalisco, México",
         googleMapsUrl: "https://goo.gl/maps/psmVLSWdiU6Gjjc6A",
@@ -35,6 +39,7 @@ export default [{
         imageUrl: "tequila.jpg"
     },
     {
+        key: 5,
         title: "San Juan del Sur",
         location: "Nicaragua",
         googleMapsUrl: "https://goo.gl/maps/aYRPMvjgCNo21KTx5",
